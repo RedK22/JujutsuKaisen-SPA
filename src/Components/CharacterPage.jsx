@@ -19,7 +19,7 @@ const CharacterPage = ({
           <div className="md:w-1/3 flex items-center justify-center">
             <img
               src={image}
-              className="h-[600px] md:hover:-rotate-[5deg] transition-all rounded-xl border-2 border-sky-500 md:hover:drop-shadow-[05px_5px_10px_rgba(23,123,255,0.75)] "
+              className="h-[550px] md:hover:-rotate-[5deg] transition-all rounded-xl border-2 border-sky-500 md:hover:drop-shadow-[05px_5px_10px_rgba(23,123,255,0.75)] "
               alt={name}
             />
           </div>
