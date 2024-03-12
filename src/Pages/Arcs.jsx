@@ -111,7 +111,7 @@ function Arcs() {
             </div>
             <div className="pb-5">
               <StoryArc
-                title="Itadori’s Extermination Arc"
+                title="Perfect Preparation Arc"
                 items={["Manga: Chapter 144 to 158", "Anime: TBD"]}
               />
             </div>
