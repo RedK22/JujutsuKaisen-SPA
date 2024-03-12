@@ -133,17 +133,17 @@ function Arcs() {
         {/* /////////////////////////////// */}
         {/* GRIDS IDEA? */}
         {/* /////////////////////////////// */}
-        <div className="px-5 py-5 w-[300px] h-[300px] md:px-0 md:py-0 grid grid-cols-3 md:w-[500px] md:h-[500px] gap-5">
+        <div className="px-5 py-5  md:px-0 md:py-0 grid grid-cols-3 md:w-[500px] md:h-[500px] gap-5">
           {arcImages.map((image, index) => (
             <div
               key={index}
-              className="block overflow-hidden w-40 h-60 hover:drop-shadow-[05px_5px_10px_rgba(23,123,255,0.75)]"
+              className="block overflow-hidden w-40 h-60 md:hover:drop-shadow-[05px_5px_10px_rgba(23,123,255,0.75)]"
             >
               <img
                 key={index}
                 src={image}
                 alt="cover image"
-                className=" h-60 w-40 object-cover hover:scale-110  transition-all ease-in "
+                className="pl-5 h-40 w-32 md:h-60 md:w-40 object-cover hover:scale-110  transition-all ease-in "
               />
             </div>
           ))}
