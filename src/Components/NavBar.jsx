@@ -41,7 +41,7 @@ function NavBar() {
           </NavLink>
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center pr-5 cursor-pointer">
+        <div className="md:hidden flex flex-1 justify-end items-center pr-5 cursor-pointer">
           <img
             src={toggle ? close : open}
             alt="menu"
