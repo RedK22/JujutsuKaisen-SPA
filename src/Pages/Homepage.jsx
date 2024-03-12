@@ -64,7 +64,7 @@ function Homepage() {
             <img
               src={Cover}
               alt="cover-panel"
-              className="mt-5 ml-5 md:mt-0 md:ml-0 w-[350px] mr-5 md:hover:drop-shadow-[0_0px_20px_rgba(23,123,255,0.5)] md:hover:rotate-[5deg] transition-all ease-in-out"
+              className="mt-5 ml-5 w-[300px] md:mt-0 md:ml-0 md:w-[320px] mr-5 md:hover:drop-shadow-[0_0px_20px_rgba(23,123,255,0.5)] md:hover:rotate-[5deg] transition-all ease-in-out"
             />
           </div>
         </div>

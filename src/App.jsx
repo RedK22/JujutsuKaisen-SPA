@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter as Router, Route, Routes} from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 import Characters from "./Pages/characters";
 import Arcs from "./Pages/Arcs";
@@ -15,7 +15,7 @@ import Nobara from "./Pages/Nobara";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="characters" element={<Characters />} />
@@ -32,7 +32,7 @@ function App() {
           <Route path="maki" element={<Maki />} />
           <Route path="nobara" element={<Nobara />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
