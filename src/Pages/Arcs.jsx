@@ -133,7 +133,7 @@ function Arcs() {
         {/* /////////////////////////////// */}
         {/* GRIDS IDEA? */}
         {/* /////////////////////////////// */}
-        <div className="px-5 py-5 md:px-0 md:py-0 grid grid-cols-3 md:w-[500px] md:h-[500px] gap-5">
+        <div className="px-5 py-5 w-[300px] h-[300px] md:px-0 md:py-0 grid grid-cols-3 md:w-[500px] md:h-[500px] gap-5">
           {arcImages.map((image, index) => (
             <div
               key={index}
@@ -143,7 +143,7 @@ function Arcs() {
                 key={index}
                 src={image}
                 alt="cover image"
-                className=" h-60 w-40 object-cover hover:scale-110 bg-green-500 transition-all ease-in "
+                className=" h-60 w-40 object-cover hover:scale-110  transition-all ease-in "
               />
             </div>
           ))}
