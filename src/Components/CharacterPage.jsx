@@ -15,8 +15,8 @@ const CharacterPage = ({
     <>
       <div className="bg-slate-900 min-h-screen">
         <NavBar />
-        <div className="md:flex flex-1 justify-between px-10">
-          <div className="md:w-1/3 flex items-center justify-center">
+        <div className="md:flex flex-1 justify-between px-10 md:hover:pb-5 ">
+          <div className="md:w-1/3 flex items-center justify-center ">
             <img
               src={image}
               className="h-[550px] md:hover:-rotate-[5deg] transition-all rounded-xl border-2 border-sky-500 md:hover:drop-shadow-[05px_5px_10px_rgba(23,123,255,0.75)] "
