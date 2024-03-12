@@ -39,7 +39,7 @@ function Arcs() {
     <div className="bg-slate-900 min-h-screen text-white ">
       <NavBar />
       <div className="md:grid grid-cols-2">
-        <div className="ml-5">
+        <div className="pl-5">
           <div className="text-3xl font-semibold">Story Arcs:</div>
           <ul className="list-disc ml-10 mt-5 text-2xl">
             <div>
@@ -133,7 +133,7 @@ function Arcs() {
         {/* /////////////////////////////// */}
         {/* GRIDS IDEA? */}
         {/* /////////////////////////////// */}
-        <div className="px-5 py-5  md:px-0 md:py-0 grid grid-cols-3 md:w-[500px] md:h-[500px] gap-5">
+        <div className="px-5 py-5  md:px-0 md:py-0 grid grid-cols-2 md:grid-cols-3 md:w-[500px] md:h-[500px] gap-5">
           {arcImages.map((image, index) => (
             <div
               key={index}
